@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: TSMPerfBoost (Bronzebeard)
+## Notes: Performance and profiling helpers for TradeSkillMaster 2.8.3 on Bronzebeard (WoW 3.3.5a)
+## Author: BronzebeardGPT
+## Version: 2.0.0
+TSMPerfBoost.lua
+cache.lua
+profiler.lua
+README.md
+filterboost.lua
