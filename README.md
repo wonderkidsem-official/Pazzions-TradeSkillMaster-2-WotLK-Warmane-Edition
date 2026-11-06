@@ -111,18 +111,6 @@ This repository contains the complete, fully compatible TSM 2 suite:
 
 ---
 
-## 🇹🇷 Türkçe Açıklama (Özet)
-
-Bu sürüm, **Warmane** (Icecrown, Lordaeron vb.) 3.3.5a sunucularındaki devasa müzayede hacmi (160.000+ eşya) sebebiyle yaşanan çökme ve aşırı yavaşlama problemlerini çözmek için **Pazzion** tarafından özel olarak optimize edilmiş TSM 2 paketidir.
-
-### Neler Düzeltildi?
-1. **GetAll Disconnect Sorunu Giderildi:** Tek seferde 35 MB veri indirmeye çalışıp oyundan atan Blizzard hatası yerine, bağlantıyı koparmayan güvenli sayfalama sistemi entegre edildi.
-2. **Akıllı Grup Taraması (Scan Selected Groups):** Eskiden "Herb" diye aratıp tüm sunucunun 230 sayfalık (11.500 adet) gereksiz 1 level otlarını indiren ve 30 dakika süren sistem kaldırıldı. Yerine seçtiğiniz gruptaki eşyaları **birebir tam adıyla** arayan nokta atışı tarama getirildi. 148 eşyalık devasa meslek listeleri **2-3 dakikada**, küçük gruplar **30 saniyede** taranır.
-3. **Tooltip ve Fiyat Güncellemesi:** Taranan tüm eşyalarda anında yeşil renkte `"Just now"` görünür; satıcısı olmayan eşyaların hayalet fiyatları temizlenir.
-4. **TSMPerfBoost Pakete Dahil Edildi:** 32-bit WoW istemcisinin bellek yönetimini ve çöp toplama (garbage collection) performansını artıran yardımcı modül eklendi.
-
----
-
 ## ⚖️ License & Credits
 
 * Original TradeSkillMaster framework created by the **TradeSkillMaster Team** ([tradeskillmaster.com](https://tradeskillmaster.com)).
